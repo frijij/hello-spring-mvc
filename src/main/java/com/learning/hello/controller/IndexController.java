@@ -12,9 +12,9 @@ public class IndexController {
         return "homepage";
     }
 
-    @GetMapping("/about")
-    public String about(){
-        return "about";
+    @GetMapping("/about-us")
+    public String aboutUs(){
+        return "about-us";
     }
 
 }
