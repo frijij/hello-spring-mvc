@@ -17,4 +17,9 @@ public class IndexController {
         return "about-us";
     }
 
+    @GetMapping("/terms-and-conditions")
+    public String termsAndConditions(){
+        return "terms-and-conditions";
+    }
+
 }
